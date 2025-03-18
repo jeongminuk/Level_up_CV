@@ -39,11 +39,8 @@ while True:
     key = cv2.waitKey(int(1000 / fps)) & 0xFF
     if key == 32:  # SPACE 키: 녹화 시작/정지
         recording = not recording
-        if recording:
-            print("🔴 녹화 시작!")
-        else:
-            print("⏹ 녹화 중지")
-    
+        print("🔴 녹화 시작!" if recording else "⏹ 녹화 중지")
+        
     elif key == ord('f') or key == ord('F'):  # 'F' 키: 좌우 반전 ON/OFF
         flip_mode = not flip_mode
         print("🔄 좌우 반전 ON" if flip_mode else "🔄 좌우 반전 OFF")

@@ -7,4 +7,4 @@
 4. 추가 기능으로 좌우반전 기능을 추가했습니다.
 
 ## 실행화면
-![video recorder 실행 화면](스크린샷 2025-03-18 오후 3.41.40.png)
+![video recorder 실행 화면](video_recorder_ex.png)
